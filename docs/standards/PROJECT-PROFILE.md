@@ -40,7 +40,7 @@ Flutter, flutter_bloc (Cubit), get_it, go_router, Drift for user data, a bundled
 No accounts, no ads, no analytics, no tracking. Location is used only to calculate prayer times and stays on the device. The privacy policy states that the audio host sees the user's IP when audio is downloaded.
 
 ## Scope guard
-V1 scope is defined in `docs/` (plan section 3 and later decisions). Anything outside it needs the owner's approval first. Postponed: page-style mushaf, word-level audio, home-screen widget, favorites, streaks and re-engagement notifications, Qibla, backup, iOS.
+V1 scope is defined in docs/plan/aqwam-plan.md (sections 3 and 15 to 19). Section 19 is the most recent and wins on conflict. If the plan conflicts with docs/standards, ask the owner. Anything outside it needs the owner's approval first. Postponed: page-style mushaf, word-level audio, home-screen widget, favorites, streaks and re-engagement notifications, Qibla, backup, iOS.
 
 ## Task order
-Tasks follow the roadmap in the plan (section 18). Do not start a task before the previous one passes the review.
+Tasks follow docs/plan/aqwam-plan.md section 18. Do not start a task before the previous one passes the review.
