@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  pull_request:
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      - run: dart pub get
+      - run: dart format --set-exit-if-changed .
+      - run: flutter analyze
+      - run: flutter test --coverage
+      - name: Enforce whole-project coverage
+        shell: bash
+        run: |
+          total=$(awk -F, '/^DA:/ { lines++; if ($2 > 0) covered++ } END { if (lines == 0) print 0; else print (covered / lines) * 100 }' coverage/lcov.info)
+          awk -v total="$total" 'BEGIN { if (total < 80) { printf "Coverage %.2f%% is below 80%%\n", total; exit 1 } printf "Coverage %.2f%%\n", total }'

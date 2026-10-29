@@ -1,0 +1,18 @@
+{
+  "@@locale": "en",
+  "home": "Home",
+  "quran": "Quran",
+  "adhkar": "Adhkar",
+  "prayerTimes": "Prayer times",
+  "settings": "Settings",
+  "appTitle": "Aqwam",
+  "placeholder": "This screen is under construction",
+  "lightTheme": "Golden Calm",
+  "darkTheme": "Moonlight",
+  "language": "Language",
+  "digits": "Digits",
+  "arabicDigits": "١٢٣",
+  "westernDigits": "123",
+  "theme": "Theme",
+  "toggleTheme": "Toggle theme"
+}

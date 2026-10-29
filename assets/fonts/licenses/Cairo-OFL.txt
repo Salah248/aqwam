@@ -1,0 +1,4 @@
+Copyright 2024 The Cairo Project Authors
+
+This font is licensed under the SIL Open Font License, Version 1.1.
+The complete license text is available at https://scripts.sil.org/OFL.
