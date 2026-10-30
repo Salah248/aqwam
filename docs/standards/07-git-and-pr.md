@@ -6,7 +6,7 @@
 - Start from an up-to-date `main`.
 
 ## Commits
-Conventional Commits: `type(scope): summary`. Types: feat, fix, refactor, test, docs, chore, perf, build, ci. Imperative mood, at most 72 characters in the summary. Atomic: each commit builds and passes tests. No "WIP", no "fix stuff".
+Conventional Commits: `type(scope): summary`. Types: feat, fix, refactor, test, docs, chore, perf, build, ci. Imperative mood, at most 72 characters in the summary. Atomic: each commit builds and passes tests. No "WIP", no "fix stuff". Agents MUST NOT add `Co-authored-by` trailers or tool signatures to commit messages unless the owner asks.
 
 ## Never commit
 Build outputs, `.dart_tool`, local IDE settings (`.vscode`, `.idea`) unless the owner shares them, `local.properties`, keystores and secrets, large binaries (audio, big datasets), generated files that the build recreates (unless the project profile says otherwise).
