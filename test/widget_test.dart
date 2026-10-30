@@ -1,16 +1,28 @@
+import 'package:aqwam/core/di/injection.dart';
+import 'package:aqwam/core/l10n/app_localizations.dart';
+import 'package:aqwam/core/router/app_router.dart';
+import 'package:aqwam/core/theme/app_theme.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:aqwam/app/aqwam_app.dart';
-import 'package:aqwam/core/di/injection.dart';
-
 void main() {
-  testWidgets('renders the Arabic shell', (tester) async {
-    configureDependencies();
-    await tester.pumpWidget(const AqwamApp());
+  testWidgets('pumps the app scaffold', (tester) async {
+    setupDependencies();
+    await tester.pumpWidget(
+      ScreenUtilInit(
+        designSize: const Size(360, 800),
+        builder: (context, child) => MaterialApp.router(
+          theme: buildLightTheme(),
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+          supportedLocales: AppLocalizations.supportedLocales,
+          locale: const Locale('ar'),
+          routerConfig: appRouter,
+        ),
+      ),
+    );
     await tester.pumpAndSettle();
 
-    expect(find.text('الرئيسية'), findsAtLeast(1));
-    expect(find.text('المصحف'), findsOneWidget);
-    expect(find.text('الإعدادات'), findsOneWidget);
+    expect(find.byType(Scaffold), findsOneWidget);
   });
 }

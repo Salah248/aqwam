@@ -1,3 +1,3 @@
-abstract interface class Clock {
-  DateTime get now;
-}
+// Purpose: define the injectable clock contract.
+// Contract: domain and data code must not call DateTime.now() directly.
+// Owner task: write this yourself

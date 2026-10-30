@@ -2,10 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'aqwam_tokens.dart';
 
-ThemeData buildAppTheme(Brightness brightness) {
-  final tokens = brightness == Brightness.light
-      ? AqwamTokens.light
-      : AqwamTokens.dark;
+ThemeData _buildTheme(AqwamColors tokens, Brightness brightness) {
   final colorScheme = ColorScheme(
     brightness: brightness,
     primary: tokens.primary,
@@ -23,25 +20,15 @@ ThemeData buildAppTheme(Brightness brightness) {
     scaffoldBackgroundColor: tokens.background,
     extensions: <ThemeExtension<dynamic>>[tokens],
     fontFamily: 'Cairo',
-    textTheme:
-        const TextTheme(
-          titleLarge: TextStyle(fontWeight: FontWeight.w800),
-          bodyMedium: TextStyle(fontWeight: FontWeight.w700),
-          labelMedium: TextStyle(fontWeight: FontWeight.w700),
-        ).apply(
-          bodyColor: tokens.text,
-          displayColor: tokens.text,
-        ),
-    navigationBarTheme: NavigationBarThemeData(
-      backgroundColor: tokens.surface,
-      indicatorColor: tokens.primaryContainer,
-      labelTextStyle: WidgetStatePropertyAll(
-        TextStyle(
-          color: tokens.text,
-          fontSize: AqwamTokens.navSize,
-          fontWeight: FontWeight.w800,
-        ),
-      ),
-    ),
+    textTheme: const TextTheme(
+      titleLarge: TextStyle(fontSize: 19, fontWeight: FontWeight.w800),
+      titleMedium: TextStyle(fontSize: 16, fontWeight: FontWeight.w800),
+      bodyMedium: TextStyle(fontSize: 12.5, fontWeight: FontWeight.w700),
+      labelMedium: TextStyle(fontSize: 11.5, fontWeight: FontWeight.w700),
+    ).apply(bodyColor: tokens.text, displayColor: tokens.text),
   );
 }
+
+ThemeData buildLightTheme() => _buildTheme(AqwamColors.light, Brightness.light);
+
+ThemeData buildDarkTheme() => _buildTheme(AqwamColors.dark, Brightness.dark);

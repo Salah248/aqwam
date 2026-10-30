@@ -1,5 +1,3 @@
-abstract interface class AudioPlayerService {
-  Future<void> play(String source);
-  Future<void> pause();
-  Future<void> stop();
-}
+// Purpose: define the audio player platform-service contract.
+// Contract: platform services are injected behind interfaces.
+// Owner task: write this yourself

@@ -25,31 +25,4 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get appTitle => 'أقوَم';
-
-  @override
-  String get placeholder => 'هذه الشاشة قيد الإنشاء';
-
-  @override
-  String get lightTheme => 'ذهبي هادئ';
-
-  @override
-  String get darkTheme => 'ضوء القمر';
-
-  @override
-  String get language => 'اللغة';
-
-  @override
-  String get digits => 'الأرقام';
-
-  @override
-  String get arabicDigits => '١٢٣';
-
-  @override
-  String get westernDigits => '123';
-
-  @override
-  String get theme => 'المظهر';
-
-  @override
-  String get toggleTheme => 'تبديل المظهر';
 }

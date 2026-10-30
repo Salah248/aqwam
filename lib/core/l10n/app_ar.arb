@@ -5,14 +5,5 @@
   "adhkar": "الأذكار",
   "prayerTimes": "المواقيت",
   "settings": "الإعدادات",
-  "appTitle": "أقوَم",
-  "placeholder": "هذه الشاشة قيد الإنشاء",
-  "lightTheme": "ذهبي هادئ",
-  "darkTheme": "ضوء القمر",
-  "language": "اللغة",
-  "digits": "الأرقام",
-  "arabicDigits": "١٢٣",
-  "westernDigits": "123",
-  "theme": "المظهر",
-  "toggleTheme": "تبديل المظهر"
+  "appTitle": "أقوَم"
 }

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 @immutable
-final class AqwamTokens extends ThemeExtension<AqwamTokens> {
-  const AqwamTokens({
+final class AqwamColors extends ThemeExtension<AqwamColors> {
+  const AqwamColors({
     required this.background,
     required this.surface,
     required this.surfaceVariant,
@@ -46,22 +47,7 @@ final class AqwamTokens extends ThemeExtension<AqwamTokens> {
   final Color successInk;
   final Color primaryInk;
 
-  static const space1 = 8.0;
-  static const space2 = 16.0;
-  static const pageInset = 12.0;
-  static const frameInnerLine = 13.45;
-  static const textInset = 25.45;
-  static const radiusCard = 12.0;
-  static const radiusHero = 20.0;
-  static const radiusControl = 10.0;
-  static const touchTarget = 48.0;
-  static const bottomNav = 64.0;
-  static const titleSize = 14.0;
-  static const bodySize = 12.5;
-  static const labelSize = 11.5;
-  static const navSize = 11.0;
-
-  static const light = AqwamTokens(
+  static const light = AqwamColors(
     background: Color(0xFFFBF5E3),
     surface: Color(0xFFFFFBEF),
     surfaceVariant: Color(0xFFF5EDD6),
@@ -84,7 +70,7 @@ final class AqwamTokens extends ThemeExtension<AqwamTokens> {
     primaryInk: Color(0xFF6B5214),
   );
 
-  static const dark = AqwamTokens(
+  static const dark = AqwamColors(
     background: Color(0xFF0E1626),
     surface: Color(0xFF151F33),
     surfaceVariant: Color(0xFF1E2A44),
@@ -108,7 +94,7 @@ final class AqwamTokens extends ThemeExtension<AqwamTokens> {
   );
 
   @override
-  AqwamTokens copyWith({
+  AqwamColors copyWith({
     Color? background,
     Color? surface,
     Color? surfaceVariant,
@@ -129,7 +115,7 @@ final class AqwamTokens extends ThemeExtension<AqwamTokens> {
     Color? ornamentLine,
     Color? successInk,
     Color? primaryInk,
-  }) => AqwamTokens(
+  }) => AqwamColors(
     background: background ?? this.background,
     surface: surface ?? this.surface,
     surfaceVariant: surfaceVariant ?? this.surfaceVariant,
@@ -153,5 +139,29 @@ final class AqwamTokens extends ThemeExtension<AqwamTokens> {
   );
 
   @override
-  AqwamTokens lerp(AqwamTokens? other, double t) => this;
+  AqwamColors lerp(AqwamColors? other, double t) => this;
+}
+
+abstract final class AqwamSpacing {
+  static double get space1 => 8.w;
+  static double get space2 => 16.w;
+  static double get pageInset => 12.w;
+  static double get frameInnerLine => 13.45.w;
+  static double get textInset => 25.45.w;
+}
+
+abstract final class AqwamPadding {
+  static EdgeInsets get page => EdgeInsets.all(AqwamSpacing.pageInset);
+  static EdgeInsets get standard => EdgeInsets.all(AqwamSpacing.space2);
+}
+
+abstract final class AqwamRadius {
+  static double get card => 12.r;
+  static double get hero => 20.r;
+  static double get control => 10.r;
+}
+
+abstract final class AqwamSize {
+  static double get touchTarget => 48.w;
+  static double get bottomNavigation => 64.h;
 }

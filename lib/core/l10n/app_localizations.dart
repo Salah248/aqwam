@@ -133,60 +133,6 @@ abstract class AppLocalizations {
   /// In ar, this message translates to:
   /// **'أقوَم'**
   String get appTitle;
-
-  /// No description provided for @placeholder.
-  ///
-  /// In ar, this message translates to:
-  /// **'هذه الشاشة قيد الإنشاء'**
-  String get placeholder;
-
-  /// No description provided for @lightTheme.
-  ///
-  /// In ar, this message translates to:
-  /// **'ذهبي هادئ'**
-  String get lightTheme;
-
-  /// No description provided for @darkTheme.
-  ///
-  /// In ar, this message translates to:
-  /// **'ضوء القمر'**
-  String get darkTheme;
-
-  /// No description provided for @language.
-  ///
-  /// In ar, this message translates to:
-  /// **'اللغة'**
-  String get language;
-
-  /// No description provided for @digits.
-  ///
-  /// In ar, this message translates to:
-  /// **'الأرقام'**
-  String get digits;
-
-  /// No description provided for @arabicDigits.
-  ///
-  /// In ar, this message translates to:
-  /// **'١٢٣'**
-  String get arabicDigits;
-
-  /// No description provided for @westernDigits.
-  ///
-  /// In ar, this message translates to:
-  /// **'123'**
-  String get westernDigits;
-
-  /// No description provided for @theme.
-  ///
-  /// In ar, this message translates to:
-  /// **'المظهر'**
-  String get theme;
-
-  /// No description provided for @toggleTheme.
-  ///
-  /// In ar, this message translates to:
-  /// **'تبديل المظهر'**
-  String get toggleTheme;
 }
 
 class _AppLocalizationsDelegate

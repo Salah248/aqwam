@@ -25,31 +25,4 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get appTitle => 'Aqwam';
-
-  @override
-  String get placeholder => 'This screen is under construction';
-
-  @override
-  String get lightTheme => 'Golden Calm';
-
-  @override
-  String get darkTheme => 'Moonlight';
-
-  @override
-  String get language => 'Language';
-
-  @override
-  String get digits => 'Digits';
-
-  @override
-  String get arabicDigits => '١٢٣';
-
-  @override
-  String get westernDigits => '123';
-
-  @override
-  String get theme => 'Theme';
-
-  @override
-  String get toggleTheme => 'Toggle theme';
 }
