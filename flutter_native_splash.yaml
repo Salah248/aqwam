@@ -1,0 +1,18 @@
+flutter_native_splash:
+  android: true
+  ios: false
+  web: false
+
+  # Android 8 to 11
+  color: "#FBF5E3"
+  color_dark: "#0E1626"
+
+  image: "assets/images/4-f2-foreground-C-432.png"
+  image_dark: "assets/images/4-f2-foreground-C-432.png"
+
+  # Android 12+
+  android_12:
+    color: "#FBF5E3"
+    color_dark: "#0E1626"
+    image: "assets/images/splash-icon-dark-1152.png"
+    image_dark: "assets/images/splash-icon-dark-1152.png"
