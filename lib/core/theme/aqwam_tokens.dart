@@ -143,106 +143,72 @@ final class AqwamColors extends ThemeExtension<AqwamColors> {
 }
 
 abstract final class AqwamTokens {
-  /// الخط الأساسي لواجهة المستخدم.
   static const String vCairo = 'Cairo';
 
-  /// مسافة الشبكة الصغيرة.
   static double get p8 => 8.w;
 
-  /// مسافة الشبكة القياسية.
   static double get p16 => 16.w;
 
-  /// الهامش الداخلي للصفحة.
   static double get p12 => 12.w;
 
-  /// موضع الخط الداخلي للإطار.
   static double get p13d45 => 13.45.w;
 
-  /// الهامش الداخلي للنص.
   static double get p25d45 => 25.45.w;
 
-  /// المسافة الأفقية للزر.
   static double get p14 => 14.w;
 
-  /// نصف قطر البطاقة.
   static double get r12 => 12.r;
 
-  /// نصف قطر البطاقة الرئيسية.
   static double get r20 => 20.r;
 
-  /// نصف قطر عناصر التحكم.
   static double get r10 => 10.r;
 
-  /// ارتفاع شريط الحالة.
   static double get s32 => 32.h;
 
-  /// ارتفاع الزر في التصميم.
   static double get s44 => 44.h;
 
-  /// حجم الأيقونة الكبيرة.
   static double get s64 => 64.w;
 
-  /// حجم الرسم التوضيحي.
   static double get s150 => 150.w;
 
-  /// حجم الزخرفة.
   static double get s48 => 48.w;
 
-  /// حجم مؤشر التقدم النشط.
   static double get s18 => 18.w;
 
-  /// حجم نقطة مؤشر التقدم.
   static double get s6 => 6.w;
 
-  /// ارتفاع شريط التنقل السفلي.
   static double get s64h => 64.h;
 
-  /// حجم نص العنوان الرئيسي.
   static const double f26 = 26;
 
-  /// حجم نص العنوان.
   static const double f19 = 19;
 
-  /// حجم عنوان القسم.
   static const double f16 = 16;
 
-  /// حجم نص المحتوى.
   static const double f12d5 = 12.5;
 
-  /// حجم نص التسمية.
   static const double f11d5 = 11.5;
 
-  /// حجم نص الإجراء.
   static const double f13 = 13;
 
-  /// حجم نص التلميح.
   static const double f11 = 11;
 
-  /// وزن النص الثقيل جدًا.
   static const FontWeight fw800 = FontWeight.w800;
 
-  /// وزن النص الثقيل.
   static const FontWeight fw700 = FontWeight.w700;
 
-  /// وزن النص المتوسط.
   static const FontWeight fw600 = FontWeight.w600;
 
-  /// ارتفاع سطر العنوان.
   static const double lh1d25 = 1.25;
 
-  /// ارتفاع سطر عنوان القسم.
   static const double lh1d3 = 1.3;
 
-  /// ارتفاع سطر المحتوى.
   static const double lh1d5 = 1.5;
 
-  /// ارتفاع سطر التسمية.
   static const double lh1d4 = 1.4;
 
-  /// ارتفاع سطر التلميح.
   static const double lh1d8 = 1.8;
 
-  /// قيمة عرض ثابتة تستخدم لحجم الزر.
   static double get s328 => 328.w;
 }
 

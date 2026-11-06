@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../l10n/app_localizations.dart';
 import '../theme/aqwam_tokens.dart';
 
 class CustomElevatedButton extends StatelessWidget {
@@ -19,27 +18,24 @@ class CustomElevatedButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final localizations = AppLocalizations.of(context);
-    return SizedBox(
-      width: double.infinity,
-      height: AqwamSize.buttonHeight,
-      child: ElevatedButton(
-        onPressed: onPressed,
-        style: ElevatedButton.styleFrom(
-          backgroundColor: theme.colorScheme.primary,
-          foregroundColor: theme.colorScheme.onPrimary,
-          elevation: 0,
-          padding: EdgeInsets.symmetric(
-            horizontal: AqwamSpacing.space2,
-          ),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(AqwamRadius.control),
-          ),
+    return ElevatedButton(
+      onPressed: onPressed,
+      style: ElevatedButton.styleFrom(
+        backgroundColor: theme.colorScheme.primary,
+        foregroundColor: theme.colorScheme.onPrimary,
+        elevation: 0,
+        minimumSize: Size(width ?? double.infinity, height ?? AqwamTokens.s44),
+        tapTargetSize: MaterialTapTargetSize.padded,
+        padding: EdgeInsets.symmetric(
+          horizontal: AqwamTokens.p14,
         ),
-        child: Text(
-          localizations.onboardingStart,
-          style: theme.textTheme.labelLarge,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(AqwamTokens.r10),
         ),
+      ),
+      child: Text(
+        text,
+        style: theme.textTheme.labelLarge,
       ),
     );
   }
