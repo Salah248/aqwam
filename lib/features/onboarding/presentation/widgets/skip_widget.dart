@@ -12,7 +12,7 @@ class SkipWidget extends StatelessWidget {
     return TextButton(
       onPressed: onPressed,
       style: TextButton.styleFrom(
-        minimumSize: Size.square(AqwamSize.touchTarget),
+        minimumSize: Size.square(AqwamTokens.s48),
         padding: EdgeInsets.zero,
         tapTargetSize: MaterialTapTargetSize.padded,
       ),
