@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
 @immutable
 final class AqwamColors extends ThemeExtension<AqwamColors> {
   const AqwamColors({
@@ -25,7 +24,6 @@ final class AqwamColors extends ThemeExtension<AqwamColors> {
     required this.successInk,
     required this.primaryInk,
   });
-
   final Color background;
   final Color surface;
   final Color surfaceVariant;
@@ -46,7 +44,6 @@ final class AqwamColors extends ThemeExtension<AqwamColors> {
   final Color ornamentLine;
   final Color successInk;
   final Color primaryInk;
-
   static const light = AqwamColors(
     background: Color(0xFFFBF5E3),
     surface: Color(0xFFFFFBEF),
@@ -69,7 +66,6 @@ final class AqwamColors extends ThemeExtension<AqwamColors> {
     successInk: Color(0xFF4C6434),
     primaryInk: Color(0xFF6B5214),
   );
-
   static const dark = AqwamColors(
     background: Color(0xFF0E1626),
     surface: Color(0xFF151F33),
@@ -92,7 +88,6 @@ final class AqwamColors extends ThemeExtension<AqwamColors> {
     successInk: Color(0xFF8FB36B),
     primaryInk: Color(0xFFE9D59E),
   );
-
   @override
   AqwamColors copyWith({
     Color? background,
@@ -137,92 +132,54 @@ final class AqwamColors extends ThemeExtension<AqwamColors> {
     successInk: successInk ?? this.successInk,
     primaryInk: primaryInk ?? this.primaryInk,
   );
-
   @override
   AqwamColors lerp(AqwamColors? other, double t) => this;
 }
-
-abstract final class AqwamTokens {
-  static const String vCairo = 'Cairo';
-
+abstract final class AqwamSpacing {
   static double get p8 => 8.w;
-
-  static double get p16 => 16.w;
-
   static double get p12 => 12.w;
-
   static double get p13d45 => 13.45.w;
-
-  static double get p25d45 => 25.45.w;
-
   static double get p14 => 14.w;
-
-  static double get r12 => 12.r;
-
-  static double get r20 => 20.r;
-
+  static double get p16 => 16.w;
+  static double get p25d45 => 25.45.w;
+}
+abstract final class AqwamRadius {
   static double get r10 => 10.r;
-
-  static double get s32 => 32.h;
-
-  static double get s44 => 44.h;
-
-  static double get s64 => 64.w;
-
-  static double get s150 => 150.w;
-
-  static double get s48 => 48.w;
-
-  static double get s18 => 18.w;
-
+  static double get r12 => 12.r;
+  static double get r20 => 20.r;
+}
+abstract final class AqwamSize {
   static double get s6 => 6.w;
-
+  static double get s18 => 18.w;
+  static double get s32 => 32.h;
+  static double get s44 => 44.h;
+  static double get s48 => 48.w;
+  static double get s64 => 64.w;
   static double get s64h => 64.h;
-
-  static const double f26 = 26;
-
-  static const double f19 = 19;
-
-  static const double f16 = 16;
-
-  static const double f12d5 = 12.5;
-
-  static const double f11d5 = 11.5;
-
-  static const double f13 = 13;
-
-  static const double f11 = 11;
-
-  static const FontWeight fw800 = FontWeight.w800;
-
-  static const FontWeight fw700 = FontWeight.w700;
-
-  static const FontWeight fw600 = FontWeight.w600;
-
-  static const double lh1d25 = 1.25;
-
-  static const double lh1d3 = 1.3;
-
-  static const double lh1d5 = 1.5;
-
-  static const double lh1d4 = 1.4;
-
-  static const double lh1d8 = 1.8;
-
+  static double get s150 => 150.w;
   static double get s328 => 328.w;
 }
-
-@Deprecated('Use AqwamTokens instead.')
-abstract final class AqwamSpacing {
-  static double get space2 => AqwamTokens.p16;
+abstract final class AqwamFontSize {
+  static const double f11 = 11;
+  static const double f11d5 = 11.5;
+  static const double f12d5 = 12.5;
+  static const double f13 = 13;
+  static const double f16 = 16;
+  static const double f19 = 19;
+  static const double f26 = 26;
 }
-
-@Deprecated('Use AqwamTokens instead.')
-abstract final class AqwamRadius {
-  static double get control => AqwamTokens.r10;
+abstract final class AqwamFontWeight {
+  static const FontWeight fw600 = FontWeight.w600;
+  static const FontWeight fw700 = FontWeight.w700;
+  static const FontWeight fw800 = FontWeight.w800;
 }
-
-@Deprecated('Use AqwamTokens instead.')
-abstract final class AqwamSize {
-  static double get buttonHeight => AqwamTokens.s44;
+abstract final class AqwamLineHeight {
+  static const double lh1d25 = 1.25;
+  static const double lh1d3 = 1.3;
+  static const double lh1d4 = 1.4;
+  static const double lh1d5 = 1.5;
+  static const double lh1d8 = 1.8;
+}
+abstract final class AqwamFontFamily {
+  static const String cairo = 'Cairo';
 }

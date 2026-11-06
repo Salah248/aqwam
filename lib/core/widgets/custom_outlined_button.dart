@@ -24,13 +24,13 @@ class CustomOutlinedButton extends StatelessWidget {
         backgroundColor: theme.colorScheme.surface,
         foregroundColor: theme.colorScheme.onSurface,
         elevation: 0,
-        minimumSize: Size(width ?? double.infinity, height ?? AqwamTokens.s44),
+        minimumSize: Size(width ?? double.infinity, height ?? AqwamSize.s44),
         tapTargetSize: MaterialTapTargetSize.padded,
         padding: EdgeInsets.symmetric(
-          horizontal: AqwamTokens.p14,
+          horizontal: AqwamSpacing.p14,
         ),
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(AqwamTokens.r10),
+          borderRadius: BorderRadius.circular(AqwamRadius.r10),
         ),
         side: BorderSide(
           color: theme.colorScheme.outline,
