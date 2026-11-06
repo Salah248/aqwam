@@ -19,12 +19,41 @@ ThemeData _buildTheme(AqwamColors tokens, Brightness brightness) {
     colorScheme: colorScheme,
     scaffoldBackgroundColor: tokens.background,
     extensions: <ThemeExtension<dynamic>>[tokens],
-    fontFamily: 'Cairo',
+    fontFamily: AqwamTypography.uiFontFamily,
     textTheme: const TextTheme(
-      titleLarge: TextStyle(fontSize: 19, fontWeight: FontWeight.w800),
-      titleMedium: TextStyle(fontSize: 16, fontWeight: FontWeight.w800),
-      bodyMedium: TextStyle(fontSize: 12.5, fontWeight: FontWeight.w700),
-      labelMedium: TextStyle(fontSize: 11.5, fontWeight: FontWeight.w700),
+      displaySmall: TextStyle(
+        fontSize: AqwamTypography.displaySize,
+        fontWeight: AqwamTypography.displayWeight,
+      ),
+      titleLarge: TextStyle(
+        fontSize: AqwamTypography.titleSize,
+        height: AqwamTypography.titleLineHeight,
+        fontWeight: AqwamTypography.titleWeight,
+      ),
+      titleMedium: TextStyle(
+        fontSize: AqwamTypography.sectionTitleSize,
+        height: AqwamTypography.sectionTitleLineHeight,
+        fontWeight: AqwamTypography.sectionTitleWeight,
+      ),
+      bodyMedium: TextStyle(
+        fontSize: AqwamTypography.bodySize,
+        height: AqwamTypography.bodyLineHeight,
+        fontWeight: AqwamTypography.bodyWeight,
+      ),
+      labelLarge: TextStyle(
+        fontSize: AqwamTypography.actionSize,
+        fontWeight: AqwamTypography.actionWeight,
+      ),
+      labelMedium: TextStyle(
+        fontSize: AqwamTypography.labelSize,
+        height: AqwamTypography.labelLineHeight,
+        fontWeight: AqwamTypography.labelWeight,
+      ),
+      labelSmall: TextStyle(
+        fontSize: AqwamTypography.hintSize,
+        height: AqwamTypography.hintLineHeight,
+        fontWeight: AqwamTypography.hintWeight,
+      ),
     ).apply(bodyColor: tokens.text, displayColor: tokens.text),
   );
 }

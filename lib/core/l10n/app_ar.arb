@@ -5,5 +5,17 @@
   "adhkar": "الأذكار",
   "prayerTimes": "المواقيت",
   "settings": "الإعدادات",
-  "appTitle": "أقوَم"
+  "appTitle": "أقوَم",
+  "onboardingSkip": "تخطٍّ",
+  "onboardingStart": "ابدأ",
+  "onboardingLocationTitle": "موقعك",
+  "onboardingLocationDescription": "نحتاج موقعك لحساب مواقيت الصلاة بدقة، ولا نشاركه مع أحد.",
+  "onboardingAllowLocation": "السماح بالموقع",
+  "onboardingChooseCityManually": "اختيار المدينة يدويًا",
+  "onboardingNotificationsTitle": "التنبيهات",
+  "onboardingNotificationsDescription": "لننبّهك قبل الصلاة وفي وقتها",
+  "onboardingAllowNotifications": "السماح بالإشعارات",
+  "onboardingLater": "لاحقًا",
+  "onboardingExactAlarmHint": "⏱ نحتاج إذن المنبّهات الدقيقة لإشعار في الوقت بالضبط",
+  "onboardingWelcomeTagline": "«أقوَم: رفيق وردك»"
 }

@@ -1,0 +1,1 @@
+// Onboarding repository contract placeholder.

@@ -1,0 +1,1 @@
+// Onboarding data model placeholder.

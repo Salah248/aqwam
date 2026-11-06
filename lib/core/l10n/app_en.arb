@@ -5,5 +5,17 @@
   "adhkar": "Adhkar",
   "prayerTimes": "Prayer times",
   "settings": "Settings",
-  "appTitle": "Aqwam"
+  "appTitle": "Aqwam",
+  "onboardingSkip": "Skip",
+  "onboardingStart": "Start",
+  "onboardingLocationTitle": "Your location",
+  "onboardingLocationDescription": "Your location is used to calculate accurate prayer times and is not shared.",
+  "onboardingAllowLocation": "Allow location",
+  "onboardingChooseCityManually": "Choose city manually",
+  "onboardingNotificationsTitle": "Notifications",
+  "onboardingNotificationsDescription": "Get reminders before and at prayer time.",
+  "onboardingAllowNotifications": "Allow notifications",
+  "onboardingLater": "Later",
+  "onboardingExactAlarmHint": "Exact alarms permission is needed for precise timing.",
+  "onboardingWelcomeTagline": "Aqwam: Your daily companion"
 }

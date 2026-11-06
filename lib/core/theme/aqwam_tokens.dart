@@ -161,7 +161,44 @@ abstract final class AqwamRadius {
   static double get control => 10.r;
 }
 
+abstract final class AqwamTypography {
+  static const String uiFontFamily = 'Cairo';
+
+  static const double displaySize = 26;
+  static const FontWeight displayWeight = FontWeight.w800;
+
+  static const double titleSize = 19;
+  static const double titleLineHeight = 1.25;
+  static const FontWeight titleWeight = FontWeight.w800;
+
+  static const double sectionTitleSize = 16;
+  static const double sectionTitleLineHeight = 1.3;
+  static const FontWeight sectionTitleWeight = FontWeight.w800;
+
+  static const double bodySize = 12.5;
+  static const double bodyLineHeight = 1.5;
+  static const FontWeight bodyWeight = FontWeight.w700;
+
+  static const double labelSize = 11.5;
+  static const double labelLineHeight = 1.4;
+  static const FontWeight labelWeight = FontWeight.w700;
+
+  static const double actionSize = 13;
+  static const FontWeight actionWeight = FontWeight.w800;
+
+  static const double hintSize = 11;
+  static const double hintLineHeight = 1.8;
+  static const FontWeight hintWeight = FontWeight.w600;
+}
+
 abstract final class AqwamSize {
+  static double get statusBar => 32.h;
+  static double get buttonHeight => 44.h;
+  static double get iconLarge => 64.w;
+  static double get illustration => 150.w;
+  static double get ornament => 48.w;
+  static double get progressIndicatorActive => 18.w;
+  static double get progressIndicatorDot => 6.w;
   static double get touchTarget => 48.w;
   static double get bottomNavigation => 64.h;
 }

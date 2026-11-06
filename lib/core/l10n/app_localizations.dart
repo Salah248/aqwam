@@ -133,6 +133,78 @@ abstract class AppLocalizations {
   /// In ar, this message translates to:
   /// **'أقوَم'**
   String get appTitle;
+
+  /// No description provided for @onboardingSkip.
+  ///
+  /// In ar, this message translates to:
+  /// **'تخطٍّ'**
+  String get onboardingSkip;
+
+  /// No description provided for @onboardingStart.
+  ///
+  /// In ar, this message translates to:
+  /// **'ابدأ'**
+  String get onboardingStart;
+
+  /// No description provided for @onboardingLocationTitle.
+  ///
+  /// In ar, this message translates to:
+  /// **'موقعك'**
+  String get onboardingLocationTitle;
+
+  /// No description provided for @onboardingLocationDescription.
+  ///
+  /// In ar, this message translates to:
+  /// **'نحتاج موقعك لحساب مواقيت الصلاة بدقة، ولا نشاركه مع أحد.'**
+  String get onboardingLocationDescription;
+
+  /// No description provided for @onboardingAllowLocation.
+  ///
+  /// In ar, this message translates to:
+  /// **'السماح بالموقع'**
+  String get onboardingAllowLocation;
+
+  /// No description provided for @onboardingChooseCityManually.
+  ///
+  /// In ar, this message translates to:
+  /// **'اختيار المدينة يدويًا'**
+  String get onboardingChooseCityManually;
+
+  /// No description provided for @onboardingNotificationsTitle.
+  ///
+  /// In ar, this message translates to:
+  /// **'التنبيهات'**
+  String get onboardingNotificationsTitle;
+
+  /// No description provided for @onboardingNotificationsDescription.
+  ///
+  /// In ar, this message translates to:
+  /// **'لننبّهك قبل الصلاة وفي وقتها'**
+  String get onboardingNotificationsDescription;
+
+  /// No description provided for @onboardingAllowNotifications.
+  ///
+  /// In ar, this message translates to:
+  /// **'السماح بالإشعارات'**
+  String get onboardingAllowNotifications;
+
+  /// No description provided for @onboardingLater.
+  ///
+  /// In ar, this message translates to:
+  /// **'لاحقًا'**
+  String get onboardingLater;
+
+  /// No description provided for @onboardingExactAlarmHint.
+  ///
+  /// In ar, this message translates to:
+  /// **'⏱ نحتاج إذن المنبّهات الدقيقة لإشعار في الوقت بالضبط'**
+  String get onboardingExactAlarmHint;
+
+  /// No description provided for @onboardingWelcomeTagline.
+  ///
+  /// In ar, this message translates to:
+  /// **'«أقوَم: رفيق وردك»'**
+  String get onboardingWelcomeTagline;
 }
 
 class _AppLocalizationsDelegate

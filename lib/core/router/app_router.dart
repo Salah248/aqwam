@@ -3,8 +3,11 @@ import 'package:flutter/material.dart';
 
 import 'package:aqwam/core/l10n/app_localizations.dart';
 
+import '../../features/onboarding/presentation/pages/onboarding_page.dart';
+
 abstract final class AppRoutes {
-  static const home = '/';
+  static const onboarding = '/';
+  static const home = '/home';
   static const quran = '/quran';
   static const adhkar = '/adhkar';
   static const prayerTimes = '/prayer-times';
@@ -12,21 +15,44 @@ abstract final class AppRoutes {
 }
 
 final appRouter = GoRouter(
-  initialLocation: '/',
+  initialLocation: AppRoutes.onboarding,
   routes: [
-    _route(AppRoutes.home, (l10n) => l10n.home),
-    _route(AppRoutes.quran, (l10n) => l10n.quran),
-    _route(AppRoutes.adhkar, (l10n) => l10n.adhkar),
-    _route(AppRoutes.prayerTimes, (l10n) => l10n.prayerTimes),
-    _route(AppRoutes.settings, (l10n) => l10n.settings),
+    _route(
+      AppRoutes.onboarding,
+      (context, state) => const OnboardingPage(),
+    ),
+    _route(
+      AppRoutes.home,
+      (context, state) => const PlaceholderPage(title: 'Home'),
+    ),
+    _route(
+      AppRoutes.quran,
+      (context, state) => const PlaceholderPage(title: 'Quran'),
+    ),
+    _route(
+      AppRoutes.adhkar,
+      (context, state) => const PlaceholderPage(title: 'Adhkar'),
+    ),
+    _route(
+      AppRoutes.prayerTimes,
+      (context, state) => const PlaceholderPage(title: 'Prayer Times'),
+    ),
+    _route(
+      AppRoutes.settings,
+      (context, state) => const PlaceholderPage(title: 'Settings'),
+    ),
   ],
 );
 
-GoRoute _route(String path, String Function(AppLocalizations) title) => GoRoute(
+GoRoute _route(
+  String path,
+  Widget Function(BuildContext, GoRouterState)? builder,
+) => GoRoute(
   path: path,
-  builder: (context, state) => PlaceholderPage(
-    title: title(AppLocalizations.of(context)),
-  ),
+  builder:
+      builder ??
+      (context, state) =>
+          PlaceholderPage(title: AppLocalizations.of(context).appTitle),
 );
 
 final class PlaceholderPage extends StatelessWidget {
