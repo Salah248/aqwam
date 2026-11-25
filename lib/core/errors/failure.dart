@@ -1,3 +1,15 @@
-// Purpose: hold the shared Failure contract.
-// Contract: failures carry machine-readable kinds, not user-facing messages.
-// Owner task: write this yourself
+sealed class Failure {
+  const Failure();
+}
+
+final class StorageFailure extends Failure {
+  const StorageFailure();
+}
+
+final class UnexpectedFailure extends Failure {
+  const UnexpectedFailure();
+}
+
+final class PermissionFailure extends Failure {
+  const PermissionFailure();
+}
