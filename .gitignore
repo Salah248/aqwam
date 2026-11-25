@@ -16,6 +16,7 @@ pubspec.lock
 
 # Android
 android/.gradle/
+android/.kotlin/
 android/local.properties
 android/key.properties
 *.jks
@@ -32,3 +33,4 @@ ios/Runner/GeneratedPluginRegistrant.*
 
 # Generated platform files
 **/GeneratedPluginRegistrant.*
+tool/data/raw/
