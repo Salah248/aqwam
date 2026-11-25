@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
 @immutable
 final class AqwamColors extends ThemeExtension<AqwamColors> {
   const AqwamColors({
@@ -135,51 +136,88 @@ final class AqwamColors extends ThemeExtension<AqwamColors> {
   @override
   AqwamColors lerp(AqwamColors? other, double t) => this;
 }
+
 abstract final class AqwamSpacing {
-  static double get p8 => 8.w;
-  static double get p12 => 12.w;
-  static double get p13d45 => 13.45.w;
-  static double get p14 => 14.w;
-  static double get p16 => 16.w;
-  static double get p25d45 => 25.45.w;
+  static double get w8 => 8.w;
+  static double get w12 => 12.w;
+  static double get w13d45 => 13.45.w;
+  static double get w14 => 14.w;
+  static double get w16 => 16.w;
+  static double get w25d45 => 25.45.w;
+  static double get h1 => 1.h;
+  static double get h8 => 8.h;
+  static double get h16 => 16.h;
+  static double get onboardingVisualTop => 40.75.h;
+  static double get onboardingStarTop => 6.5.h;
+  static double get onboardingTitleTop => 69.5.h;
+  static double get onboardingTaglineTop => 134.5.h;
+  static double get onboardingLocationIconTop => 32.25.h;
+  static double get onboardingLocationTitleTop => 104.25.h;
+  static double get onboardingLocationDescriptionTop => 156.25.h;
+  static double get onboardingDescriptionInset => 23.8.w;
+  static double get onboardingNotificationsIconTop => 16.75.h;
+  static double get onboardingNotificationsTitleTop => 88.75.h;
+  static double get onboardingNotificationsDescriptionTop => 140.75.h;
+  static double get onboardingNotificationsHintTop => 173.75.h;
 }
+
 abstract final class AqwamRadius {
+  static double get r6 => 6.r;
   static double get r10 => 10.r;
   static double get r12 => 12.r;
   static double get r20 => 20.r;
 }
+
 abstract final class AqwamSize {
-  static double get s6 => 6.w;
-  static double get s18 => 18.w;
-  static double get s32 => 32.h;
-  static double get s44 => 44.h;
-  static double get s48 => 48.w;
-  static double get s64 => 64.w;
-  static double get s64h => 64.h;
-  static double get s150 => 150.w;
-  static double get s328 => 328.w;
+  static double get w6 => 6.w;
+  static double get w18 => 18.w;
+  static double get w48 => 48.w;
+  static double get w64 => 64.w;
+  static double get w150 => 150.w;
+  static double get w275 => 275.w;
+  static double get w328 => 328.w;
+  static double get h8 => 8.h;
+  static double get h150 => 150.h;
+  static double get h32 => 32.h;
+  static double get h40 => 40.h;
+  static double get h44 => 44.h;
+  static double get h48 => 48.h;
+  static double get h64 => 64.h;
 }
+
 abstract final class AqwamFontSize {
-  static const double f11 = 11;
-  static const double f11d5 = 11.5;
-  static const double f12d5 = 12.5;
-  static const double f13 = 13;
-  static const double f16 = 16;
-  static const double f19 = 19;
-  static const double f26 = 26;
+  static double get f10 => 10.sp;
+  static double get f11 => 11.sp;
+  static double get f11d5 => 11.5.sp;
+  static double get f12d5 => 12.5.sp;
+  static double get f13 => 13.sp;
+  static double get f14 => 14.sp;
+  static double get f16 => 16.sp;
+  static double get f19 => 19.sp;
+  static double get f26 => 26.sp;
 }
+
 abstract final class AqwamFontWeight {
   static const FontWeight fw600 = FontWeight.w600;
   static const FontWeight fw700 = FontWeight.w700;
   static const FontWeight fw800 = FontWeight.w800;
 }
+
 abstract final class AqwamLineHeight {
   static const double lh1d25 = 1.25;
   static const double lh1d3 = 1.3;
   static const double lh1d4 = 1.4;
   static const double lh1d5 = 1.5;
+  static const double lh1d6 = 1.6;
+  static const double lh2 = 2;
   static const double lh1d8 = 1.8;
 }
+
 abstract final class AqwamFontFamily {
   static const String cairo = 'Cairo';
+}
+
+abstract final class AqwamMotion {
+  static const Duration sheetDuration = Duration(milliseconds: 320);
+  static const Curve sheetCurve = Cubic(0.22, 1, 0.36, 1);
 }

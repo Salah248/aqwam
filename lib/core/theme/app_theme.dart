@@ -20,7 +20,7 @@ ThemeData _buildTheme(AqwamColors tokens, Brightness brightness) {
     scaffoldBackgroundColor: tokens.background,
     extensions: <ThemeExtension<dynamic>>[tokens],
     fontFamily: AqwamFontFamily.cairo,
-    textTheme: const TextTheme(
+    textTheme: TextTheme(
       displaySmall: TextStyle(
         fontSize: AqwamFontSize.f26,
         fontWeight: AqwamFontWeight.fw800,
