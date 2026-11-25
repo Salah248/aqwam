@@ -17,5 +17,60 @@
   "onboardingAllowNotifications": "Allow notifications",
   "onboardingLater": "Later",
   "onboardingExactAlarmHint": "Exact alarms permission is needed for precise timing.",
-  "onboardingWelcomeTagline": "Aqwam: Your daily companion"
+  "onboardingWelcomeTagline": "Aqwam: Your daily companion",
+  "onboardingStepProgress": "Step {current} of {total}",
+  "@onboardingStepProgress": {
+    "placeholders": {
+      "current": { "type": "String" },
+      "total": { "type": "String" }
+    }
+  },
+  "cityPickerTitle": "Choose city",
+  "cityPickerCountry": "Country",
+  "cityPickerCity": "City",
+  "cityPickerCountrySearchHint": "Search for a country",
+  "cityPickerCitySearchHint": "Search for a city",
+  "cityPickerRegionSearchHint": "Search for {region}",
+  "@cityPickerRegionSearchHint": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
+  "cityPickerRegionGeneric": "Region",
+  "cityPickerConfirmLocation": "Confirm location",
+  "cityPickerSelectedLocation": "{city}, {governorate}, {country}",
+  "cityPickerStepLabel": "Step {current} of {total} · {label}",
+  "@cityPickerStepLabel": {
+    "placeholders": {
+      "current": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "cityPickerSelectedLocationShort": "{city}, {country}",
+  "@cityPickerSelectedLocationShort": {
+    "placeholders": {
+      "city": {
+        "type": "String"
+      },
+      "country": {
+        "type": "String"
+      }
+    }
+  },
+  "cityPickerNoResults": "No results",
+  "cityPickerLoadError": "Couldn't load locations",
+  "cityPickerSaveError": "Couldn't save the location. Try again.",
+  "cityPickerStorageError": "Couldn't access the saved location. Try again.",
+  "cityPickerEmpty": "No locations are available.",
+  "onboardingPermissionError": "Permission request failed. You can try again.",
+  "cityPickerRetry": "Try again"
 }

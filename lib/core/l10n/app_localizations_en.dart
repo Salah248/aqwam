@@ -64,4 +64,77 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get onboardingWelcomeTagline => 'Aqwam: Your daily companion';
+
+  @override
+  String onboardingStepProgress(String current, String total) {
+    return 'Step $current of $total';
+  }
+
+  @override
+  String get cityPickerTitle => 'Choose city';
+
+  @override
+  String get cityPickerCountry => 'Country';
+
+  @override
+  String get cityPickerCity => 'City';
+
+  @override
+  String cityPickerRegionSearchHint(String region) {
+    return 'Search for $region';
+  }
+
+  @override
+  String get cityPickerRegionGeneric => 'Region';
+
+  @override
+  String get cityPickerCountrySearchHint => 'Search for a country';
+
+  @override
+  String get cityPickerCitySearchHint => 'Search for a city';
+
+  @override
+  String get cityPickerConfirmLocation => 'Confirm location';
+
+  @override
+  String cityPickerSelectedLocation(
+    Object city,
+    Object country,
+    Object governorate,
+  ) {
+    return '$city, $governorate, $country';
+  }
+
+  @override
+  String cityPickerStepLabel(String current, String total, String label) {
+    return 'Step $current of $total · $label';
+  }
+
+  @override
+  String cityPickerSelectedLocationShort(String city, String country) {
+    return '$city, $country';
+  }
+
+  @override
+  String get cityPickerNoResults => 'No results';
+
+  @override
+  String get cityPickerLoadError => 'Couldn\'t load locations';
+
+  @override
+  String get cityPickerRetry => 'Try again';
+
+  @override
+  String get cityPickerSaveError => 'Couldn\'t save the location. Try again.';
+
+  @override
+  String get cityPickerStorageError =>
+      'Couldn\'t access the saved location. Try again.';
+
+  @override
+  String get cityPickerEmpty => 'No locations are available.';
+
+  @override
+  String get onboardingPermissionError =>
+      'Permission request failed. You can try again.';
 }

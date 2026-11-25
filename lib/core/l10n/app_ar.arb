@@ -17,5 +17,60 @@
   "onboardingAllowNotifications": "السماح بالإشعارات",
   "onboardingLater": "لاحقًا",
   "onboardingExactAlarmHint": "⏱ نحتاج إذن المنبّهات الدقيقة لإشعار في الوقت بالضبط",
-  "onboardingWelcomeTagline": "«أقوَم: رفيق وردك»"
+  "onboardingWelcomeTagline": "«أقوَم: رفيق وردك»",
+  "onboardingStepProgress": "الخطوة {current} من {total}",
+  "@onboardingStepProgress": {
+    "placeholders": {
+      "current": { "type": "String" },
+      "total": { "type": "String" }
+    }
+  },
+  "cityPickerTitle": "اختيار المدينة",
+  "cityPickerCountry": "الدولة",
+  "cityPickerCity": "المدينة",
+  "cityPickerRegionSearchHint": "ابحث عن {region}",
+  "@cityPickerRegionSearchHint": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
+  "cityPickerRegionGeneric": "المنطقة",
+  "cityPickerCountrySearchHint": "ابحث عن الدولة",
+  "cityPickerCitySearchHint": "ابحث عن المدينة",
+  "cityPickerConfirmLocation": "تأكيد الموقع",
+  "cityPickerSelectedLocation": "{city}، {governorate}، {country}",
+  "cityPickerStepLabel": "الخطوة {current} من {total} · {label}",
+  "@cityPickerStepLabel": {
+    "placeholders": {
+      "current": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "cityPickerSelectedLocationShort": "{city}، {country}",
+  "@cityPickerSelectedLocationShort": {
+    "placeholders": {
+      "city": {
+        "type": "String"
+      },
+      "country": {
+        "type": "String"
+      }
+    }
+  },
+  "cityPickerNoResults": "لا توجد نتائج",
+  "cityPickerLoadError": "تعذّر تحميل المواقع",
+  "cityPickerRetry": "إعادة المحاولة",
+  "cityPickerSaveError": "تعذّر حفظ الموقع، حاول مرة أخرى",
+  "cityPickerStorageError": "تعذّر الوصول إلى الموقع المحفوظ، حاول مرة أخرى",
+  "cityPickerEmpty": "لا توجد مواقع متاحة",
+  "onboardingPermissionError": "تعذّر طلب الإذن، يمكنك المحاولة مرة أخرى"
 }

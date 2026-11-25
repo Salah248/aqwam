@@ -64,4 +64,77 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get onboardingWelcomeTagline => '«أقوَم: رفيق وردك»';
+
+  @override
+  String onboardingStepProgress(String current, String total) {
+    return 'الخطوة $current من $total';
+  }
+
+  @override
+  String get cityPickerTitle => 'اختيار المدينة';
+
+  @override
+  String get cityPickerCountry => 'الدولة';
+
+  @override
+  String get cityPickerCity => 'المدينة';
+
+  @override
+  String cityPickerRegionSearchHint(String region) {
+    return 'ابحث عن $region';
+  }
+
+  @override
+  String get cityPickerRegionGeneric => 'المنطقة';
+
+  @override
+  String get cityPickerCountrySearchHint => 'ابحث عن الدولة';
+
+  @override
+  String get cityPickerCitySearchHint => 'ابحث عن المدينة';
+
+  @override
+  String get cityPickerConfirmLocation => 'تأكيد الموقع';
+
+  @override
+  String cityPickerSelectedLocation(
+    Object city,
+    Object country,
+    Object governorate,
+  ) {
+    return '$city، $governorate، $country';
+  }
+
+  @override
+  String cityPickerStepLabel(String current, String total, String label) {
+    return 'الخطوة $current من $total · $label';
+  }
+
+  @override
+  String cityPickerSelectedLocationShort(String city, String country) {
+    return '$city، $country';
+  }
+
+  @override
+  String get cityPickerNoResults => 'لا توجد نتائج';
+
+  @override
+  String get cityPickerLoadError => 'تعذّر تحميل المواقع';
+
+  @override
+  String get cityPickerRetry => 'إعادة المحاولة';
+
+  @override
+  String get cityPickerSaveError => 'تعذّر حفظ الموقع، حاول مرة أخرى';
+
+  @override
+  String get cityPickerStorageError =>
+      'تعذّر الوصول إلى الموقع المحفوظ، حاول مرة أخرى';
+
+  @override
+  String get cityPickerEmpty => 'لا توجد مواقع متاحة';
+
+  @override
+  String get onboardingPermissionError =>
+      'تعذّر طلب الإذن، يمكنك المحاولة مرة أخرى';
 }

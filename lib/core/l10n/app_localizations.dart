@@ -205,6 +205,124 @@ abstract class AppLocalizations {
   /// In ar, this message translates to:
   /// **'«أقوَم: رفيق وردك»'**
   String get onboardingWelcomeTagline;
+
+  /// No description provided for @onboardingStepProgress.
+  ///
+  /// In ar, this message translates to:
+  /// **'الخطوة {current} من {total}'**
+  String onboardingStepProgress(String current, String total);
+
+  /// No description provided for @cityPickerTitle.
+  ///
+  /// In ar, this message translates to:
+  /// **'اختيار المدينة'**
+  String get cityPickerTitle;
+
+  /// No description provided for @cityPickerCountry.
+  ///
+  /// In ar, this message translates to:
+  /// **'الدولة'**
+  String get cityPickerCountry;
+
+  /// No description provided for @cityPickerCity.
+  ///
+  /// In ar, this message translates to:
+  /// **'المدينة'**
+  String get cityPickerCity;
+
+  /// No description provided for @cityPickerRegionSearchHint.
+  ///
+  /// In ar, this message translates to:
+  /// **'ابحث عن {region}'**
+  String cityPickerRegionSearchHint(String region);
+
+  /// No description provided for @cityPickerRegionGeneric.
+  ///
+  /// In ar, this message translates to:
+  /// **'المنطقة'**
+  String get cityPickerRegionGeneric;
+
+  /// No description provided for @cityPickerCountrySearchHint.
+  ///
+  /// In ar, this message translates to:
+  /// **'ابحث عن الدولة'**
+  String get cityPickerCountrySearchHint;
+
+  /// No description provided for @cityPickerCitySearchHint.
+  ///
+  /// In ar, this message translates to:
+  /// **'ابحث عن المدينة'**
+  String get cityPickerCitySearchHint;
+
+  /// No description provided for @cityPickerConfirmLocation.
+  ///
+  /// In ar, this message translates to:
+  /// **'تأكيد الموقع'**
+  String get cityPickerConfirmLocation;
+
+  /// No description provided for @cityPickerSelectedLocation.
+  ///
+  /// In ar, this message translates to:
+  /// **'{city}، {governorate}، {country}'**
+  String cityPickerSelectedLocation(
+    Object city,
+    Object country,
+    Object governorate,
+  );
+
+  /// No description provided for @cityPickerStepLabel.
+  ///
+  /// In ar, this message translates to:
+  /// **'الخطوة {current} من {total} · {label}'**
+  String cityPickerStepLabel(String current, String total, String label);
+
+  /// No description provided for @cityPickerSelectedLocationShort.
+  ///
+  /// In ar, this message translates to:
+  /// **'{city}، {country}'**
+  String cityPickerSelectedLocationShort(String city, String country);
+
+  /// No description provided for @cityPickerNoResults.
+  ///
+  /// In ar, this message translates to:
+  /// **'لا توجد نتائج'**
+  String get cityPickerNoResults;
+
+  /// No description provided for @cityPickerLoadError.
+  ///
+  /// In ar, this message translates to:
+  /// **'تعذّر تحميل المواقع'**
+  String get cityPickerLoadError;
+
+  /// No description provided for @cityPickerRetry.
+  ///
+  /// In ar, this message translates to:
+  /// **'إعادة المحاولة'**
+  String get cityPickerRetry;
+
+  /// No description provided for @cityPickerSaveError.
+  ///
+  /// In ar, this message translates to:
+  /// **'تعذّر حفظ الموقع، حاول مرة أخرى'**
+  String get cityPickerSaveError;
+
+  /// No description provided for @cityPickerStorageError.
+  ///
+  /// In ar, this message translates to:
+  /// **'تعذّر الوصول إلى الموقع المحفوظ، حاول مرة أخرى'**
+  String get cityPickerStorageError;
+
+  /// No description provided for @cityPickerEmpty.
+  ///
+  /// In ar, this message translates to:
+  /// **'لا توجد مواقع متاحة'**
+  String get cityPickerEmpty;
+
+  /// No description provided for @onboardingPermissionError.
+  ///
+  /// In ar, this message translates to:
+  /// **'تعذّر طلب الإذن، يمكنك المحاولة مرة أخرى'**
+  String get onboardingPermissionError;
 }
 
 class _AppLocalizationsDelegate
