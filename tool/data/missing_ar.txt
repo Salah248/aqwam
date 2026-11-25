@@ -1,0 +1,409 @@
+city	291279	Muzayri‘
+city	291794	Al Jazīrah al Ḩamrā’
+city	6691083	Al Twar First
+city	6691085	AL Twar Second
+city	6691086	Al Qusais Second
+city	6691109	Knowledge Village
+city	8469668	International City
+city	8469805	Dubai Sports City
+city	8469819	Al Safa
+city	8476509	Al Majaz
+city	8541937	Dubai Festival City
+city	8541977	Dubai International Financial Centre
+city	11048853	Dubai Investments Park
+city	13118421	Al Muteena
+city	13118422	Al Mizhar First
+city	13118423	Al Mizhar Second
+city	13118424	Dubai Silicon Oasis
+city	13118429	Dubai Motor City
+city	13118430	DAMAC Hills
+city	13118431	Al Furjan
+city	13118432	Business Bay
+city	13118433	Al Qusais 1
+city	13118434	Al Twar 3
+city	13118436	Al Khawaneej 1
+city	13118437	Halwan
+city	13118438	Al Sajaah
+city	13118447	Mohammed Bin Zayed City
+city	13118448	Masdar City
+city	2480198	Sidi Mérouane
+city	2484777	Ouled Slama Fouaga
+city	2484891	Ouled Haddaj
+city	2485634	Oued el Alennda
+city	2488202	Melouza
+city	2489922	M’Daourouch
+city	2494065	Assi Bou Nif
+city	2496643	Feidh el Botma
+city	2496681	Fedj M’Zala
+city	2497269	En Nedjma
+city	2498614	El Arrouch
+city	2499095	Draâ Esmar
+city	2503075	Bou Hadjar
+city	2503468	Boû Arfa
+city	2503641	Bordj Menaïel
+city	2504099	Berrouaghia
+city	2508174	Aïn el Bya
+city	2508295	’Aïn Azel
+city	2508455	Ahmed Bel Hadj
+city	2508670	Aghlal
+city	11204500	Ali Mendjeli
+city	11703548	Sidi Senoussi سيدي سنوسي
+city	12326384	District of Taher
+city	12640238	Maâtkas
+city	12640239	Sidi Amar
+city	346201	Zaafarana
+city	347907	Sinnūris
+city	350211	Râs el-Barr
+city	355596	Ihnāsīyah
+city	360159	Ar Radīsīyah Qiblī
+city	360456	Al Yāsīnīyah
+city	360890	Al Khuşūş
+city	361179	Al Ḩawāmidīyah
+city	361405	Al Başalīyah Baḩrī
+city	362028	Abu Suweir-el-Mahatta
+city	362865	Abū an Numrus
+city	421600	Badr
+city	433441	Banī Suwayf al Jadīdah
+city	434418	An Nāşirīyah
+city	12640357	Al-Khārijah
+city	12640359	Al-Minyā al-Jadīdah
+city	12640363	Ar-Rawḍah
+city	12640381	Yūsuf aṣ-Ṣiddīq
+city	13118928	New Bani Sewif City
+city	99439	Nāḩiyat al Fuhūd
+city	387345	Abu Gharaq
+city	10303650	Simele
+city	12494059	AlZwya
+city	13631407	Abū al-Kahṣīb
+city	13680586	Shelādiz
+city	6946409	Karak City
+city	921719	Ouellah
+city	1091669	Nkourani
+city	1092369	Ikoni
+city	276294	Boudaï
+city	83861	Qaşr Lībiyā
+city	2211464	Sīdī aş Şayd
+city	2215758	Kiklah
+city	2218983	Az Zahrā’
+city	2219356	As Sawānī
+city	2219471	Ar Rayāyinah
+city	2219591	An Nāşirīyah
+city	2219736	Al Qawāsim
+city	2220368	Abū Zayyān
+city	12687304	Al-'Alūaṣ
+city	12687305	Qarqūzah
+city	12687307	Umm Sā'ad
+city	12687308	Wādī 'Utbah
+city	12687309	Wardāmah
+city	2526104	Zayda
+city	2526359	Zawyat ech Cheïkh
+city	2526389	Zaouïa Aït Ishak
+city	2527366	Tissa
+city	2527645	Tirhanimîne
+city	2529411	Tassila
+city	2529777	Tarhjicht
+city	2530704	Tamallalt
+city	2531171	Talat-n-Ya’qoub
+city	2531453	Dhar Souk
+city	2531480	Tahla
+city	2531877	Tafraout
+city	2532171	Tabount
+city	2532394	Souq Larb’a al Gharb
+city	2532405	Souq at Tlata des Loulad
+city	2532412	Souq Sebt Oulad Nemma
+city	2532420	Jem’at Oulad ’Abbou
+city	2532421	Souk et Tnine Jorf el Mellah
+city	2532434	Souq Al Had Bradya
+city	2532440	Foum Jam’a
+city	2532707	Sidi Zouine
+city	2532821	Sidi Yahya Zaer
+city	2533182	Sidi Rahal
+city	2533481	Sidi Lmokhtar
+city	2535530	Bouknadel
+city	2535534	Sidi Bou Othmane
+city	2535619	Sidi Bou Lanouar
+city	2536047	Sidi Bibi
+city	2536074	Sidi Bennour
+city	2536383	Sidi Allal Tazi
+city	2536392	Sidi Allal El Bahraoui
+city	2537368	Gueznaia
+city	2537610	Sebt Gzoula
+city	2538059	Rich
+city	2538401	Ras el Ma
+city	2538573	Outat Oulad Al Haj
+city	2539114	Oulad Yaïch
+city	2540180	Oulad Barhil
+city	2540207	Oulad Ayad
+city	2540953	Aït Ouaoumana
+city	2541210	Zawyat an Nwaçer
+city	2541779	Moulay Yacoub
+city	2541833	Moulay Bousselham
+city	2541843	Moulay Bou ’azza
+city	2541906	Moulay Abdallah
+city	2542013	Al Aaroui
+city	2542167	Mirleft
+city	2542768	Mehdya
+city	2542826	Mediouna
+city	2542866	Mechraa Bel Ksiri
+city	2542898	Mdiq
+city	2543667	Lalla Mimouna
+city	2544815	Kariat Arkmane
+city	2544821	Karia Ba Mohamed
+city	2545051	Jamaat Shaim
+city	2545069	Mrirt
+city	2546028	Imouzzer Kandar
+city	2546128	Imi-n-Tanout
+city	2548196	Haj Kaddour
+city	2548676	Ghafsaï
+city	2548830	Al Fqih Ben Çalah
+city	2549150	Tlet El Hanchane
+city	2549888	Zemamra
+city	2549979	El Kelaa des Srarhna
+city	2550162	El Harhoura
+city	2550419	El Gara
+city	2550547	Al Brouj
+city	2550681	Arbaa Laaounate
+city	2550749	Laouamra
+city	2550898	Imzouren
+city	2551147	Douar Toulal
+city	2552615	Dar Bouazza
+city	2552975	Ben Qarrich
+city	2553382	Echemmaia Est
+city	2553751	Bouznika
+city	2554006	Bouskoura
+city	2554130	Boureït
+city	2554281	Boumia
+city	2554322	Boumalne Dades
+city	2554594	Bou Izakarn
+city	2554943	Bou Fekrane
+city	2555157	Bouarfa
+city	2555342	Bir Jdid
+city	2555504	Ben Taieb
+city	2555567	Ben Jerrar
+city	2555610	Bni Tajjit
+city	2555885	Bni Drar
+city	2556018	Ben Guerir
+city	2556076	Ben Ahmed
+city	2556272	Berrechid
+city	2556377	Bab Taza
+city	2556657	Azemmour
+city	2557134	Ar Rommani
+city	2558052	Amizmiz
+city	2558414	Almis du Guigou
+city	2558428	El Mansouria
+city	2558436	Beni Yakhlef
+city	2558844	Ait Yazza
+city	2560841	Aïn Harrouda
+city	2560922	Aïn Beni Mathar
+city	2561737	Afourer
+city	2571932	Azla
+city	2596460	Ribat Al Khayr
+city	8504943	Tamansourt
+city	8556357	Sidi Bouzid
+city	9645313	Gueltat Zemmour
+city	10374906	Dchira El Jihadia
+city	10374934	Ait Melloul
+city	10374981	Tine Biougra
+city	10375044	Lqoliaa
+city	10375138	Oadar Temsia
+city	10375207	My Drarga
+city	10640347	Sidi Ahmed
+city	10797349	Sidi Taibi
+city	10869575	Bellaa
+city	10904142	Loudaya
+city	10920963	Salé Al Jadida
+city	10933159	Had Oulad Zbair
+city	10955770	Cap Negro II
+city	10958491	Bni Bouayach
+city	10965229	Souq Khmis Aït Yadine
+city	10984425	Ain Karma
+city	11024543	Bouderbala
+city	11025160	Lemhaya
+city	11025266	Sabaa Aiyoun
+city	11131249	Souk El Arba Des Aït Baha
+city	11471726	Oulad El Rhadabne
+city	12718659	Kahf Nssar
+city	12718660	Ighram Laalam
+city	12718661	Ouaouizeght
+city	12718662	Hattane
+city	12718663	Bejaâd
+city	12718664	Moulay Ali Cherif
+city	12718667	Al Machouar - Stinia
+city	12718668	Zoualet
+city	12718669	Ouislane
+city	12718673	Sidi Ali Ben Hamdouche
+city	12718674	Oulad M'Rah
+city	12718675	Had Soualem
+city	12718676	Lahraouyine
+city	12718677	Lakhsas
+city	12718678	El Ouatia
+city	12718680	Méchouar-Kasba
+city	12718681	Laâttaouia
+city	12718683	Bouizazarene Ihaddadene
+city	12718684	Sidi Slimane Echcharaa
+city	12718685	Zirara
+city	12718686	Mers El Kheir
+city	12718687	Aïn Attig
+city	12718688	Souk El Arbaa
+city	12718689	Fam El Hisn
+city	12718690	El Guerdane
+city	2380066	El ’Ayoûn
+city	2380254	Diogountourou
+city	2595352	Ksar
+city	12718652	Bouhdida
+city	12718653	Guerou
+city	12718654	Mbera
+city	12718657	Wali Djantang
+city	13527105	Fondé Elimane
+city	286293	Sufālat Samā’il
+city	288902	Badīyah
+city	412084	Bayt al ‘Awābī
+city	281818	Shu‘fāţ
+city	282431	Qarne Shomeron
+city	283046	Kokhav Ya‘aqov
+city	284279	Bet Arye
+city	284362	Baytā al Fawqā
+city	284375	Battir
+city	285101	Alfei Menasheh
+city	11979646	Geva Binyamin
+city	12156437	Beit El
+city	13512674	Lusail
+city	101035	Umm as Sāhik
+city	101313	Ţurayf
+city	101344	At Tūbī
+city	101581	Tanūmah
+city	101633	Tabālah
+city	101732	Unaizah
+city	102985	Raḩīmah
+city	103922	Mulayjah
+city	104828	King Faisal Military City
+city	105252	Julayjilah
+city	108142	As Saffānīyah
+city	108890	Al Qurayn
+city	109059	Al Munayzilah
+city	109118	Al Mindak
+city	109165	Al Markaz
+city	109306	Al Khurmah
+city	109380	Al Khafjī
+city	110059	Al ‘Aqīq
+city	392753	Şuwayr
+city	399518	Al Majāridah
+city	11524299	King Abdullah City
+city	12495725	Bariq
+city	12495738	Al Ju‘aymah
+city	13631408	Ḥawṭah Banī Tamīm
+city	364027	Wagar
+city	364071	Wad Rāwah
+city	364216	Wad az Zāki
+city	364621	Umm Shawkah
+city	364949	Um Jar Al Gharbiyya
+city	365390	Umm Dafog
+city	365641	Tullus
+city	370510	Marabba
+city	370838	Maiurno
+city	372386	Kināna
+city	372773	Kas
+city	374866	Ghubaysh
+city	375046	Gebeit
+city	375192	Jalqani
+city	378391	Ash Shallāl
+city	378543	Argo
+city	379080	Al Masallamiyya
+city	379127	El Matama
+city	379261	Al Kiremit al ‘Arakiyyīn
+city	379272	Al Kawa
+city	379302	El Geneina Fort
+city	379406	Al Hilāliyya
+city	379630	El Bauga
+city	380151	Ad Dindar
+city	12493849	Al Jazeera Aba
+city	13132448	Ad-Dindar
+city	13132449	Al-Fashaqah
+city	13132450	Al-Fāw
+city	13132451	Al-Quṭaynah
+city	13132452	'Ārdamatā
+city	13132453	Sh'īarīah
+city	51228	Tog Wajaale
+city	52381	Saacow
+city	52407	Ruqi
+city	58831	Gebiley
+city	61360	Dhamas
+city	65722	Agabar
+city	342803	Balanbale
+city	6311111	Saaxo
+city	6311126	Dhabad
+city	12212406	Beled Hawo
+city	2463945	Zaouiet Kountech
+city	2464020	Souassi
+city	2464860	Teboulbou
+city	2465108	Sidi Amor Bou Hajela
+city	2465146	Sidi Tabet
+city	2466294	Sidi Ameur
+city	2466698	Sidi Abid
+city	2467242	Sakiet ez Zit
+city	2467243	Sakiet ed Daier
+city	2467732	Rass el Djebel
+city	2467889	Ksiba
+city	2468187	Bir Lahmar
+city	2469081	Maatmeur
+city	2469088	Mateur
+city	2469766	Khunays
+city	2470578	El-Hamma-Djerid
+city	2470586	Hammam el Rhezez
+city	2471475	Douar Tindja
+city	2471700	Dar Ouled Khalifa
+city	2471726	Dar Ali Ben Hassene
+city	2471944	Bou Chemma
+city	2471992	Borj Mejen Bel Abbès
+city	2472196	Bou Hadjar
+city	2472213	Bou Ficha
+city	2472833	Zouila
+city	2473164	Sīdī Ḥusayn
+city	2473172	Es Somaa
+city	2473417	Ousseltia
+city	2473420	Ouardenine
+city	2473454	El Guetar
+city	2473481	Kalaa Srira
+city	2473513	El Maknassi
+city	2473538	Messadine
+city	2473551	El Mgarsa
+city	2473578	M’dhilla
+city	2473608	Khledia
+city	2473626	Le Kram
+city	2473643	Djebibina
+city	2473662	Djebel Abiod
+city	2473738	Erriadh
+city	2473742	Hencha
+city	2473811	El Bahira
+city	2473835	El Ain
+city	2473859	Agareb
+city	2581754	Douane
+city	2584420	Dar el Haj Taïeb
+city	2585234	Hajeb el Aïoun
+city	2586370	Ez Zahra
+city	6692494	Borj Cedria
+city	7870240	Rawad
+city	11204409	Chehimet Nord
+city	11204413	El Mourouj
+city	11204573	Ezzouhour
+city	11239116	Nouvelle Matmata
+city	11778224	Maagoula
+city	11862748	Ben Aoun
+city	11862824	Souk Lahad
+city	12037388	Den Den
+city	12037507	Boumhel El Bassatine
+city	13132698	Amiret El Fhoul
+city	13132700	Amiret Touazra
+city	13132701	Menzel Bouzaiane
+city	13132702	Kerker
+city	13132703	Amiret Hajjaj
+city	13132705	Menzel Ennour
+city	13132706	Menzel Hayet
+city	13132707	Bennane Bodheur
+city	13132708	Bembla et Mnara
+city	13132709	Chenini Nahal
+city	13132710	Mnihla
+city	13132711	Douar Hicher
+city	13132712	Ettadhamen
+city	11776817	Jadder Cemetery
+city	12217890	CPF
