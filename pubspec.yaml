@@ -1,22 +1,26 @@
 name: aqwam
 description: "Aqwam, an offline-first Islamic companion."
-publish_to: 'none'
+publish_to: "none"
 version: 1.0.0+1
 
 environment:
   sdk: ^3.12.2
 
 dependencies:
+  equatable: ^3.0.0
   flutter:
     sdk: flutter
   flutter_bloc: ^9.1.1
+  flutter_local_notifications: 23.0.0
   flutter_localizations:
     sdk: flutter
   flutter_screenutil: ^5.9.3
   flutter_svg: ^2.2.1
+  geolocator: ^14.0.1
   get_it: ^8.2.0
   go_router: ^16.2.4
   intl: ^0.20.2
+  shared_preferences: ^2.5.6
 
 dev_dependencies:
   bloc_test: ^10.0.0
@@ -33,7 +37,9 @@ flutter:
     - assets/fonts/licenses/
     - assets/icons/
     - assets/svg/
+    - assets/svg/onboarding/
     - assets/images/
+    - assets/data/
   fonts:
     - family: Cairo
       fonts:
