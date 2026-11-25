@@ -18,22 +18,23 @@ class CustomOutlinedButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final colors = theme.extension<AqwamColors>()!;
     return OutlinedButton(
       onPressed: onPressed,
       style: OutlinedButton.styleFrom(
-        backgroundColor: theme.colorScheme.surface,
-        foregroundColor: theme.colorScheme.onSurface,
+        backgroundColor: colors.surface,
+        foregroundColor: colors.text,
         elevation: 0,
-        minimumSize: Size(width ?? double.infinity, height ?? AqwamSize.s44),
+        minimumSize: Size(width ?? double.infinity, height ?? AqwamSize.h44),
         tapTargetSize: MaterialTapTargetSize.padded,
         padding: EdgeInsets.symmetric(
-          horizontal: AqwamSpacing.p14,
+          horizontal: AqwamSpacing.w14,
         ),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(AqwamRadius.r10),
         ),
         side: BorderSide(
-          color: theme.colorScheme.outline,
+          color: colors.divider,
         ),
       ),
       child: Text(

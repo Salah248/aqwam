@@ -24,10 +24,10 @@ class CustomElevatedButton extends StatelessWidget {
         backgroundColor: theme.colorScheme.primary,
         foregroundColor: theme.colorScheme.onPrimary,
         elevation: 0,
-        minimumSize: Size(width ?? double.infinity, height ?? AqwamSize.s44),
+        minimumSize: Size(width ?? double.infinity, height ?? AqwamSize.h44),
         tapTargetSize: MaterialTapTargetSize.padded,
         padding: EdgeInsets.symmetric(
-          horizontal: AqwamSpacing.p14,
+          horizontal: AqwamSpacing.w14,
         ),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(AqwamRadius.r10),
@@ -35,7 +35,9 @@ class CustomElevatedButton extends StatelessWidget {
       ),
       child: Text(
         text,
-        style: theme.textTheme.labelLarge,
+        style: theme.textTheme.labelLarge!.copyWith(
+          color: theme.colorScheme.onPrimary,
+        ),
       ),
     );
   }
